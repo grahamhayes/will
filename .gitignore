@@ -3,6 +3,8 @@
 
 # C extensions
 *.so
+.ipynb_checkpoints/
+*.ipynb
 
 # Packages
 *.egg
@@ -41,3 +43,6 @@ docs/.DS_Store
 
 # VIM swap files
 .*.sw[a-z]
+
+# Virtual env
+.venv
