@@ -57,15 +57,15 @@ PLUGINS = [
 
     # All plugins in your project.
     "plugins",
+    "plugins.launchpad",
 ]
 
 # Don't load any of the plugins in this list.  Same options as above.
 PLUGIN_BLACKLIST = [
-    "will.plugins.productivity.hangout",   # Because it requires a HANGOUT_URL
-    "will.plugins.productivity.world_time",   # Because it requires a WORLD_WEATHER_ONLINE_V2_KEY key
     "will.plugins.productivity.bitly",   # Because it requires a BITLY_ACCESS_TOKEN key and the bitly_api library
     "will.plugins.devops.bitbucket_is_up",   # Because most folks use github.
     "will.plugins.devops.pagerduty",  # Because it requires a PAGERDUTY_SUBDOMAIN and PAGERDUTY_API_KEY key
+    "will.plugins.admin.keep_alive",  # Meh
 ]
 
 # ------------------------------------------------------------------------------------
@@ -106,9 +106,9 @@ PLUGIN_BLACKLIST = [
 # Access Control: Specify groups of users to be used in the acl=["admins","ceos"] parameter
 # in respond_to and hear actions.
 # Group names can be any string, and the list is composed of user handles.
-# ACL = {
-#     "admins": ["steven", "will"]
-# }
+ACL = {
+    "admins": ["graham"]
+}
 
 
 # Deprecated - please use ACL, above, instead:  User handles who are allowed to perform
