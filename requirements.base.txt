@@ -13,5 +13,5 @@ CherryPy==3.6.0
 Jinja2==2.7.3
 Markdown==2.3.1
 MarkupSafe==0.23
-PyYAML==3.10
+PyYAML==5.1
 pygerduty==0.28
