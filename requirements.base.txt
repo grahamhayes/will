@@ -3,7 +3,7 @@ clint==0.3.7
 dill==0.2.1
 dnspython==1.12.0
 natural==0.1.5
-requests==2.4.1
+requests==2.20.0
 parsedatetime==1.1.2
 pyasn1==0.1.7
 pyasn1-modules==0.0.5
